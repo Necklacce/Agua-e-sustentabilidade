@@ -82,6 +82,10 @@ main{
     flex-direction: row;
     margin-top: 200px;
 }
+.background{
+    background: url(imagens/oceano.jpg);
+    position: absolute;
+}
 h2{
     position: absolute;
     font-size: 56px;
