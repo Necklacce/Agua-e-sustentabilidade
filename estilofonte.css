@@ -9,8 +9,6 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 7px;
-    background: url(/imagens/37130.jpg);
-    background-size:1920px;
 }
 
 header{
@@ -83,7 +81,7 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 200px;
-    background: url(imagens/37130.jpg);
+    background: url(imagens/oceano.jpg);
     background-size: 1920px;
 }
 h2{
