@@ -77,6 +77,10 @@ ul{
 
     }
 }
+.back{
+    background: url(/imagens/oceano.jpg);
+    background-size:1920px; 
+}
 main{
     display: flex;
     flex-direction: row;
