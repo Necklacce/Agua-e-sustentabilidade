@@ -78,6 +78,7 @@ ul{
     }
 }
 .back{
+    position: absolute;
     background: url(/imagens/oceano.jpg);
     background-size:1920px; 
 }
