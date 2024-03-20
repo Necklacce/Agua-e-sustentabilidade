@@ -81,6 +81,7 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 200px;
+    background: transparent;
 }
 h2{
     position: absolute;
