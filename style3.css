@@ -82,7 +82,7 @@ main{
     flex-direction: row;
     margin-top: 200px;
 }
-.back{
+.background{
     position: absolute;
     top: 0;
     left: 0;
