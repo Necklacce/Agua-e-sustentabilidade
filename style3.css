@@ -77,25 +77,34 @@ ul{
 
     }
 }
-.back{
-    position: absolute;
-    background: url(/imagens/oceano.jpg);
-    background-size:1920px; 
-}
 main{
     display: flex;
     flex-direction: row;
     margin-top: 200px;
-    background: url(imagens/oceano.jpg);
-    background-size: 1920px;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background: url(/imagens/oceano.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 h2{
+    position: absolute;
     font-size: 56px;
     font-family: poppinsmedium;
+    z-index: 10000;
 }
 
 span{
+    position: absolute;
+    top: 60px;
     color: #8ac279;
+    z-index: 10000; 
 }
 
 p{
@@ -139,10 +148,10 @@ input{
     font-size: 15px;
 }
 aside p{
-    color: #8ac279;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 3px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #8ac279;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffff;
 }
